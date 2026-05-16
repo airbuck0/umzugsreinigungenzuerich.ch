@@ -11,9 +11,7 @@
     <meta property="og:description" content="Professionelle Umzugsreinigung in Zürich mit 100% Abnahmegarantie. Festpreise, erfahrene Reinigungskräfte, kostenlose Nachbesserung.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://umzugsreinigungenzuerich.ch/">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="preload" as="image" href="hero-bg.webp" fetchpriority="high">
     <style>
         /* ============================================================
            RESET & BASE
@@ -26,8 +24,6 @@
             line-height: 1.7;
             color: #1A202C;
             background: #fff;
-            -webkit-font-smoothing: antialiased;
-            -moz-osx-font-smoothing: grayscale;
             text-rendering: optimizeLegibility;
         }
         img { max-width: 100%; height: auto; display: block; }
@@ -179,7 +175,8 @@
             display: flex;
             align-items: center;
             padding: 176px 0 40px;
-            background: url('hero-bg.png') center/cover no-repeat;
+            background: url('hero-bg.webp') center/cover no-repeat;
+            background-color: #1A202C;
             overflow: hidden;
         }
         .hero::before {
@@ -830,7 +827,7 @@
 
 <header class="header" id="header">
     <div class="container header-inner">
-        <a href="/" class="logo"><img src="logo5-final.png" alt="Umzugsreinigung Zürich"></a>
+        <a href="/" class="logo"><img src="logo5-final.webp" alt="Umzugsreinigung Zürich" width="348" height="315" fetchpriority="high"></a>
         <nav class="header-nav">
             <a href="#offerte">Offerte</a>
             <a href="#preise">Preise</a>
@@ -973,7 +970,7 @@
                 <p>Als erfahrene Reinigungsfirma wissen wir genau, worauf es bei der Wohnungsabgabe ankommt. Unsere Umzugsreinigungen umfassen stets alle Zimmer, sämtliche Reinigungsmittel sowie die Anfahrt – alles inkl. im Festpreis. Mit unserer Abnahmegarantie sind Sie auf der sicheren Seite und erhalten Ihre volle Mietkaution zurück.</p>
             </div>
             <div class="content-image">
-                <img src="img-reinigung.jpg" alt="Professionelle Umzugsreinigung in Zürich" loading="lazy">
+                <img src="img-reinigung.webp" alt="Professionelle Umzugsreinigung in Zürich" width="800" height="533" loading="lazy" decoding="async">
             </div>
         </div>
     </div>
@@ -1183,7 +1180,7 @@
     <div class="container">
         <div class="two-col">
             <div class="content-image">
-                <img src="img-kunden.jpg" alt="Zufriedene Kunden nach erfolgreicher Wohnungsübergabe" loading="lazy">
+                <img src="img-kunden.webp" alt="Zufriedene Kunden nach erfolgreicher Wohnungsübergabe" width="800" height="601" loading="lazy" decoding="async">
             </div>
             <div class="two-col-text">
                 <h2>Für wen eignet sich eine professionelle Umzugsreinigung?</h2>
@@ -1252,7 +1249,7 @@
                 <p>Alle Reinigungsmittel, professionelle Ausrüstung, Anfahrt und MwSt. sind im Festpreis inbegriffen – alles inkl., ohne Zusatzkosten. Sie müssen nichts besorgen oder vorbereiten. Unser clean Team kommt vollständig ausgestattet und hinterlässt jedes Zimmer in makellosem Zustand. Diese gründliche Reinigung umfasst bei der Umzugsreinigung auch Nebenräume wie Keller, Estrich und Waschküche – so ist die Endreinigung inkl. aller Bereiche abgedeckt.</p>
             </div>
             <div class="content-image">
-                <img src="img-checkliste.jpg" alt="Reinigungsmittel und Checkliste für Umzugsreinigung" loading="lazy">
+                <img src="img-checkliste.webp" alt="Reinigungsmittel und Checkliste für Umzugsreinigung" width="800" height="533" loading="lazy" decoding="async">
             </div>
         </div>
     </div>
@@ -1265,7 +1262,7 @@
     <div class="container">
         <div class="two-col">
             <div class="content-image">
-                <img src="img-garantie.jpg" alt="Abnahmegarantie bei professioneller Umzugsreinigung" loading="lazy">
+                <img src="img-garantie.webp" alt="Abnahmegarantie bei professioneller Umzugsreinigung" width="800" height="534" loading="lazy" decoding="async">
             </div>
             <div class="two-col-text">
                 <h2 style="color: var(--white);">Abnahmegarantie – unser Versprechen bei jeder Endreinigung</h2>
@@ -1297,7 +1294,7 @@
                 <a href="#offerte" class="btn btn-primary" style="margin-top:16px">Kostenlos Offerte anfordern</a>
             </div>
             <div class="content-image">
-                <img src="img-fehler.jpg" alt="Häufige Fehler bei der Wohnungsreinigung vermeiden" loading="lazy">
+                <img src="img-fehler.webp" alt="Häufige Fehler bei der Wohnungsreinigung vermeiden" width="800" height="533" loading="lazy" decoding="async">
             </div>
         </div>
     </div>
@@ -1316,7 +1313,7 @@
                 <p>Unsere Hauswartung umfasst neben der Reinigung auch kleinere Unterhaltsarbeiten. So erhalten Sie Reinigung und Hauswartung aus einer Hand – effizient, zuverlässig und zu fairen Konditionen inkl. aller Materialien.</p>
             </div>
             <div class="content-image">
-                <img src="img-hauswartung.jpg" alt="Hauswartung und Gebäudereinigung in Zürich" loading="lazy">
+                <img src="img-hauswartung.webp" alt="Hauswartung und Gebäudereinigung in Zürich" width="800" height="533" loading="lazy" decoding="async">
             </div>
         </div>
     </div>
@@ -1473,7 +1470,7 @@
     // Header Scroll Effect
     window.addEventListener('scroll', function() {
         document.getElementById('header').classList.toggle('scrolled', window.scrollY > 50);
-    });
+    }, { passive: true });
 
     // FAQ Toggle
     function toggleFaq(btn) {
