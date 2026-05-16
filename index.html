@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Umzugsreinigung in Zürich – Wohnungsreinigung mit Abnahmegarantie</title>
-    <meta name="description" content="Umzugsreinigung Zürich: Professionelle Endreinigung mit Abnahmegarantie. Festpreise, keine versteckten Kosten. Jetzt Gratis-Offerte anfordern! ☎ +41 44 499 00 75">
+    <title>Umzugsreinigung Zürich – 100% Abnahmegarantie</title>
+    <meta name="description" content="Zürcher Reinigungsfirma - professionelle Reinigung mit Abnahmegarantie. Gratis-Offerte in 24h. Festpreis ab CHF 539.">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://umzugsreinigungenzuerich.ch/">
     <meta property="og:title" content="Umzugsreinigung Zürich – Professionelle Endreinigung mit Abnahmegarantie">
@@ -17,7 +17,68 @@
            RESET & BASE
            ============================================================ */
         *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-        html { scroll-behavior: smooth; }
+        html { scroll-behavior: smooth; scroll-padding-top: 120px; }
+        section[id], div[id="offerte"] { scroll-margin-top: 120px; }
+
+        /* MAP SECTION */
+        .map-section {
+            padding: 56px 0;
+            background: var(--lighter, #EDF2F7);
+        }
+        .map-head {
+            text-align: center;
+            max-width: 680px;
+            margin: 0 auto 28px;
+        }
+        .map-head h2 {
+            font-size: 1.7rem;
+            margin-bottom: 8px;
+            color: var(--dark, #1A202C);
+        }
+        .map-head p {
+            color: #4A5568;
+            font-size: 1rem;
+        }
+        .map-wrap {
+            border-radius: var(--radius, 12px);
+            overflow: hidden;
+            box-shadow: var(--shadow, 0 4px 24px rgba(0,0,0,0.08));
+            background: #fff;
+        }
+        .map-wrap iframe { display: block; width: 100%; }
+        .map-cta {
+            text-align: center;
+            margin-top: 24px;
+        }
+        .map-cta .btn {
+            display: inline-flex;
+            align-items: center;
+        }
+
+        /* FOOTER SOCIALS */
+        .footer-socials {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-top: 16px;
+        }
+        .footer-socials a {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px; height: 40px;
+            border-radius: 50%;
+            background: rgba(255,255,255,0.08);
+            color: rgba(255,255,255,0.85);
+            transition: all .2s ease;
+            text-decoration: none;
+        }
+        .footer-socials a:hover {
+            background: var(--accent, #4CAF50);
+            color: #fff;
+            transform: translateY(-2px);
+        }
+        .footer-socials a svg { width: 20px; height: 20px; }
         body {
             font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
             font-size: 17px;
@@ -821,7 +882,7 @@
     <div class="container top-bar-inner">
         <span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>Rufen Sie uns an unter <a href="tel:+41444990075">+41 44 499 00 75</a></span>
         <span class="separator">|</span>
-        <span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg><a href="mailto:kontakt@umzugsreinigungenzuerich.ch">kontakt@umzugsreinigungenzuerich.ch</a></span>
+        <span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg><a href="/cdn-cgi/l/email-protection#fa9195948e9b918eba8f97808f9d89889f9394939d8f949d9f94808f9f88939992d49992"><span class="__cf_email__" data-cfemail="dcb7b3b2a8bdb7a89ca9b1a6a9bbafaeb9b5b2b5bba9b2bbb9b2a6a9b9aeb5bfb4f2bfb4">[email&#160;protected]</span></a></span>
     </div>
 </div>
 
@@ -829,10 +890,10 @@
     <div class="container header-inner">
         <a href="/" class="logo"><img src="logo5-final.webp" alt="Umzugsreinigung Zürich" width="348" height="315" fetchpriority="high"></a>
         <nav class="header-nav">
+            <a href="#umzugsreinigung">Umzugsreinigung Zürich</a>
+            <a href="#abnahmegarantie">Abnahmegarantie</a>
             <a href="#offerte">Offerte</a>
-            <a href="#preise">Preise</a>
-            <a href="#ablauf">Ablauf</a>
-            <a href="#faq">FAQ</a>
+            <a href="#preise">Preise in Zürich</a>
         </nav>
         <a href="tel:+41444990075" class="header-phone" aria-label="Anrufen: 044 499 00 75">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
@@ -852,7 +913,7 @@
             <!-- LEFT: Content -->
             <div class="hero-content">
                 <h1>Umzugsreinigung in Zürich <span class="highlight">– Wohnungsreinigung mit Abnahmegarantie</span></h1>
-                <p class="hero-subtitle">Professionelle Umzugsreinigung und Endreinigung zum Festpreis. Unsere erfahrene Reinigungsfirma sorgt dafür, dass Ihre Wohnung clean und einwandfrei abgenommen wird – garantiert.</p>
+                <p class="hero-subtitle">Umzugsreinigung und Wohnungsreinigung Zürich zum Festpreis – inkl. Fenster, Storen und 100% Abnahmegarantie. Gründliche Reinigung, garantiert ohne Beanstandung.</p>
                 <ul class="hero-checks">
                     <li>
                         <span class="check-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="#FFFFFF" stroke-width="3"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg></span>
@@ -966,10 +1027,9 @@
     <div class="container">
         <div class="two-col">
             <div class="two-col-text">
-                <h2>Professionelle Umzugsreinigung in Zürich – Was steckt dahinter?</h2>
-                <p>Eine Umzugsreinigung – auch Endreinigung oder Wohnungsreinigung genannt – ist die gründliche Reinigung Ihrer Wohnung oder Ihres Hauses nach dem Auszug. In Zürich ist diese Reinigung Pflicht: Vermieter und Verwaltungen verlangen, dass das Mietobjekt bei der Übergabe in einwandfreiem Zustand ist. Jährlich reinigen und übergeben wir hunderte Wohnungen in der ganzen Region.</p>
-                <p>Im Gegensatz zur normalen Hausreinigung umfasst unsere Umzugsreinigung auch schwer zugängliche Bereiche wie Fenster, Heizkörper, Schränke von innen und die gründliche Reinigung von Küche und Badezimmer. Die Umzugsreinigung schliesst dabei jedes Zimmer mit ein – vom Wohnzimmer über das Schlafzimmer bis hin zum Abstellraum. Wir arbeiten nach einem standardisierten Abnahmeprotokoll, das von Verwaltungen im gesamten Kanton anerkannt wird.</p>
-                <p>Als erfahrene Reinigungsfirma wissen wir genau, worauf es bei der Wohnungsabgabe ankommt. Unsere Umzugsreinigungen umfassen stets alle Zimmer, sämtliche Reinigungsmittel sowie die Anfahrt – alles inkl. im Festpreis. Mit unserer Abnahmegarantie sind Sie auf der sicheren Seite und erhalten Ihre volle Mietkaution zurück.</p>
+                <h2>Professionelle Zürcher Reinigung - was wir leisten</h2>
+                <p>Eine Umzugsreinigung – auch Endreinigung oder Wohnungsreinigung genannt – ist die gründliche Reinigung Ihrer Wohnung nach dem Auszug. In Zürich Pflicht: Vermieter verlangen einzugsbereiten Zustand.</p>
+                <p>Unsere Umzugsreinigung umfasst schwer zugängliche Bereiche: Fenster, Storen-Reinigung samt Lamellen, Heizkörper, Schränke, Küche und Bad. Jedes Zimmer der Wohnung wird gründlich gereinigt – egal welcher Verschmutzungsgrad. Auf Wunsch Keller, Estrich oder Garage.</p>
             </div>
             <div class="content-image">
                 <img src="img-reinigung.webp" alt="Professionelle Umzugsreinigung in Zürich" width="800" height="533" loading="lazy" decoding="async">
@@ -983,50 +1043,50 @@
      ================================================================ -->
 <section class="section section-light" id="vorteile">
     <div class="container">
-        <h2 class="section-title text-center">Ihre Vorteile bei unserer Wohnungsreinigung</h2>
-        <p class="section-subtitle text-center mx-auto">Unsere Umzugsreinigung bietet alles, was für eine erfolgreiche Wohnungsübergabe wichtig ist – inkl. Reinigungsmittel, Anfahrt und Abnahmegarantie.</p>
+        <h2 class="section-title text-center">Warum Wohnungsreinigung mit uns – 5 Gründe für professionelle Reinigung</h2>
+        <p class="section-subtitle text-center mx-auto">Warum Umzugsreinigungen Zürich Ihre erste Wahl ist – fünf Gründe, die uns von anderen Reinigungsfirmen Zürich unterscheiden.</p>
         <div class="features-grid">
             <div class="feature-card">
                 <div class="feature-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
                 </div>
-                <h3>Abnahmegarantie inklusive</h3>
-                <p>Sollte bei der Wohnungsübergabe etwas beanstandet werden, kommen unsere Reinigungskräfte kostenlos zurück und beheben alle Mängel. So erhalten Sie Ihre Kaution sicher zurück.</p>
+                <h3>100% Abnahmegarantie inkl.</h3>
+                <p>Beanstandet die Verwaltung etwas, reinigen wir kostenlos nach – bis das Protokoll unterzeichnet ist.</p>
             </div>
             <div class="feature-card">
                 <div class="feature-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
                 </div>
-                <h3>Transparente Festpreise</h3>
-                <p>Keine versteckten Kosten, keine Überraschungen. Sie erhalten ein verbindliches Angebot für die gesamte Umzugsreinigung – inkl. Reinigungsmittel, Anfahrt und MwSt. Der Festpreis gilt unabhängig davon, wie lange die Reinigung dauert.</p>
+                <h3>Festpreis statt Stundensatz</h3>
+                <p>Verbindliches Angebot inkl. Reinigungsmittel, Anfahrt und MwSt. – keine versteckten Kosten.</p>
             </div>
             <div class="feature-card">
                 <div class="feature-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
                 </div>
-                <h3>Flexible Terminplanung</h3>
-                <p>Ob Wochenende, Feiertage oder kurzfristige Buchungen – unsere Reinigungskräfte sind flexibel und passen den Termin an Ihren Umzugsplan an. Fragen Sie einfach Ihre Gratisofferte an.</p>
+                <h3>Fenster und Storen inkl.</h3>
+                <p>Beide Bereiche sind im Preis – andere Reinigungsfirmen Zürich rechnen Storen-Reinigung oft extra ab.</p>
             </div>
             <div class="feature-card">
                 <div class="feature-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"/></svg>
                 </div>
-                <h3>Systematische Checkliste</h3>
-                <p>Unsere Reinigungskräfte arbeiten nach einem bewährten clean-Protokoll: Küche, Bad, Böden, Fenster, Heizkörper, Türen – jedes Zimmer wird erfasst. So stellen wir sicher, dass bei der Umzugsreinigung kein Bereich vergessen wird.</p>
+                <h3>Erfahrenes Team</h3>
+                <p>Tausende Wohnungen jährlich – Routine zahlt sich bei jeder gründlichen Reinigung aus.</p>
             </div>
             <div class="feature-card">
                 <div class="feature-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
                 </div>
-                <h3>Lokale Erfahrung in Zürich</h3>
-                <p>Wir kennen die Anforderungen der Zürcher Vermieter und Verwaltungen. Ob Oerlikon, Altstetten, Wiedikon, Seefeld oder Enge – unser Service deckt ganz Zürich ab.</p>
+                <h3>Persönliche Beratung</h3>
+                <p>Telefonisch erreichbar – Beratung zu Ablauf, Verschmutzungsgrad und Offerte mit Abnahmegarantie inkl.</p>
             </div>
             <div class="feature-card">
                 <div class="feature-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
                 </div>
-                <h3>Clean &amp; zuverlässiger Service</h3>
-                <p>Angebot innert 24 Stunden. Unsere professionelle Reinigungsfirma garantiert pünktliches Erscheinen mit kompletter Ausrüstung für einen clean und makellosen Service bei jeder Umzugsreinigung.</p>
+                <h3>24h Offerte</h3>
+                <p>Antwort innerhalb von 24 Stunden – pünktliches Erscheinen mit kompletter Ausrüstung.</p>
             </div>
         </div>
     </div>
@@ -1037,8 +1097,8 @@
      ================================================================ -->
 <section class="section" id="preise">
     <div class="container">
-        <h2 class="section-title text-center">Angebot &amp; Festpreise für Ihre Endreinigung</h2>
-        <p class="section-subtitle text-center mx-auto">Transparente Preise für Ihre Umzugsreinigung – jede Reinigung inkl. Reinigungsmittel, Anfahrt, MwSt. und Abnahmegarantie. Wählen Sie die passende Zimmerzahl und fordern Sie Ihr unverbindliches Angebot an.</p>
+        <h2 class="section-title text-center">Preise & Festkosten für Ihre Reinigung in Zürich</h2>
+        <p class="section-subtitle text-center mx-auto">Unsere Umzugsreinigung Preise sind transparent. Die Umzugsreinigung Zürich Preise starten ab CHF 539 – jede komplette Reinigung inkl. Reinigungsmittel, Anfahrt, MwSt. und Abnahmegarantie.</p>
         <div class="pricing-grid">
             <div class="price-card">
                 <div class="rooms">1 – 1.5 Zimmer</div>
@@ -1108,70 +1168,7 @@
             </div>
         </div>
 
-        <!-- HÄUSER -->
-        <h3 style="text-align:center; margin-top:48px; font-size:1.4rem; font-weight:700; margin-bottom:24px;">Einfamilienhäuser – Reinigung nach Zimmer</h3>
-        <div class="pricing-grid">
-            <div class="price-card">
-                <div class="rooms">3 – 3.5 Zi. Haus</div>
-                <div class="price">CHF 1'289</div>
-                <div class="price-note">Festpreis inkl. MwSt.</div>
-                <ul>
-                    <li><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg> Komplettes Haus</li>
-                    <li><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg> Abnahmegarantie</li>
-                </ul>
-                <a href="#offerte" class="btn btn-primary" style="width:100%">Offerte anfordern</a>
-            </div>
-            <div class="price-card">
-                <div class="rooms">4 – 4.5 Zi. Haus</div>
-                <div class="price">CHF 1'589</div>
-                <div class="price-note">Festpreis inkl. MwSt.</div>
-                <ul>
-                    <li><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg> Komplettes Haus</li>
-                    <li><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg> Abnahmegarantie</li>
-                </ul>
-                <a href="#offerte" class="btn btn-primary" style="width:100%">Offerte anfordern</a>
-            </div>
-            <div class="price-card">
-                <div class="rooms">5 – 5.5 Zi. Haus</div>
-                <div class="price">CHF 1'889</div>
-                <div class="price-note">Festpreis inkl. MwSt.</div>
-                <ul>
-                    <li><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg> Komplettes Haus</li>
-                    <li><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg> Abnahmegarantie</li>
-                </ul>
-                <a href="#offerte" class="btn btn-primary" style="width:100%">Offerte anfordern</a>
-            </div>
-            <div class="price-card">
-                <div class="rooms">6 – 6.5 Zi. Haus</div>
-                <div class="price">CHF 2'189</div>
-                <div class="price-note">Festpreis inkl. MwSt.</div>
-                <ul>
-                    <li><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg> Komplettes Haus</li>
-                    <li><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg> Abnahmegarantie</li>
-                </ul>
-                <a href="#offerte" class="btn btn-primary" style="width:100%">Offerte anfordern</a>
-            </div>
-            <div class="price-card">
-                <div class="rooms">7 – 7.5 Zi. Haus</div>
-                <div class="price">CHF 2'389</div>
-                <div class="price-note">Festpreis inkl. MwSt.</div>
-                <ul>
-                    <li><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg> Komplettes Haus</li>
-                    <li><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg> Abnahmegarantie</li>
-                </ul>
-                <a href="#offerte" class="btn btn-primary" style="width:100%">Offerte anfordern</a>
-            </div>
-            <div class="price-card">
-                <div class="rooms">8+ Zi. Haus</div>
-                <div class="price">CHF 2'589</div>
-                <div class="price-note">Festpreis inkl. MwSt.</div>
-                <ul>
-                    <li><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg> Komplettes Haus</li>
-                    <li><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg> Abnahmegarantie</li>
-                </ul>
-                <a href="#offerte" class="btn btn-primary" style="width:100%">Offerte anfordern</a>
-            </div>
-        </div>
+        <p style="text-align:center; margin-top:32px; color:var(--text-muted);">Für Einfamilienhäuser oder Sonderfälle (2-Zimmer Wohnung, alte Wohnung): individuelle Offerte abnahmegarantie inkl. Zimmer Endreinigung inkl. Storen ist immer im Festpreis.</p>
     </div>
 </section>
 
@@ -1185,15 +1182,15 @@
                 <img src="img-kunden.webp" alt="Zufriedene Kunden nach erfolgreicher Wohnungsübergabe" width="800" height="601" loading="lazy" decoding="async">
             </div>
             <div class="two-col-text">
-                <h2>Für wen eignet sich eine professionelle Umzugsreinigung?</h2>
-                <p>Unsere professionelle Umzugsreinigung eignet sich für alle, die höchste Qualität und Zuverlässigkeit bei der Wohnungsübergabe erwarten – egal ob 2-Zimmer-Wohnung oder grosses Einfamilienhaus.</p>
+                <h2>Was kostet eine Zürcher Umzugsreinigung?</h2>
+                <p>Der Preis hängt von Wohnungsgrösse und Verschmutzungsgrad ab. Für eine 3-Zimmer-Wohnung planen Sie CHF 750–950 inkl. Abnahmegarantie ein. In der Schweiz gibt es keine Umzugskostenpauschale wie in Deutschland.</p>
                 <ul>
-                    <li><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg> <strong>Mieter beim Auszug</strong> – Wohnungsreinigung mit Abnahmegarantie für eine sorgenfreie Übergabe</li>
-                    <li><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg> <strong>Hausbesitzer</strong> – Professionelle Reinigung vor dem Verkauf oder der Neuvermietung</li>
-                    <li><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg> <strong>Verwaltungen</strong> – Zuverlässiger clean Service für Wohnungsübergaben in Zürich</li>
-                    <li><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg> <strong>Büro- &amp; Geschäftsmieter</strong> – Endreinigung bei Standortwechsel in Zürich</li>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg> <strong>Mieter beim Auszug</strong> – mit Abnahmegarantie</li>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg> <strong>Hausbesitzer</strong> – vor Verkauf oder Neuvermietung</li>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg> <strong>Verwaltungen</strong> – Service für Wohnungsübergaben</li>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg> <strong>Büromieter</strong> – bei Standortwechsel</li>
                 </ul>
-                <p>Die Anforderungen bei der Wohnungsübergabe sind besonders streng. Mit unserer Abnahmegarantie und dem professionellen Service unserer Reinigungsfirma vermeiden Sie teure Kautionsabzüge. Jede Umzugsreinigung wird individuell auf die Anzahl Zimmer und den Zustand des Objekts abgestimmt.</p>
+                <p>Eine günstige Umzugsreinigung Zürich rechnet sich nur, wenn die Wohnung beim ersten Mal abgenommen wird.</p>
                 <a href="#offerte" class="btn btn-primary" style="margin-top:16px">Jetzt Gratis-Offerte anfordern</a>
             </div>
         </div>
@@ -1211,22 +1208,22 @@
             <div class="step">
                 <div class="step-number">1</div>
                 <h3>Offerte anfordern</h3>
-                <p>Füllen Sie unser Formular aus oder rufen Sie uns an. Innerhalb von 24 Stunden erhalten Sie Ihr unverbindliches Angebot für die Umzugsreinigung – transparent und fair.</p>
+                <p>Per Formular oder Telefon. Sie erhalten innerhalb 24 Stunden Ihr unverbindliches Angebot.</p>
             </div>
             <div class="step">
                 <div class="step-number">2</div>
                 <h3>Termin vereinbaren</h3>
-                <p>Wir finden den perfekten Termin für Ihre Umzugsreinigung in Zürich. Flexibel auch am Wochenende und an Feiertagen verfügbar.</p>
+                <p>Wir finden den perfekten Termin. Flexibel auch am Wochenende verfügbar.</p>
             </div>
             <div class="step">
                 <div class="step-number">3</div>
                 <h3>Professionelle Reinigung</h3>
-                <p>Unsere Reinigungskräfte erscheinen pünktlich und führen die Umzugsreinigung nach unserer bewährten Checkliste clean durch – Zimmer für Zimmer, von Küche bis Keller.</p>
+                <p>Pünktlich, nach unserer Checkliste – Zimmer für Zimmer, von Küche bis Keller.</p>
             </div>
             <div class="step">
                 <div class="step-number">4</div>
                 <h3>Abnahme garantiert</h3>
-                <p>Qualitätskontrolle mit Abnahmeprotokoll. Sie erhalten unsere Abnahmegarantie: Bei Beanstandungen kommen wir kostenlos zurück.</p>
+                <p>Qualitätskontrolle mit Protokoll. Bei Beanstandungen: kostenlose Nachreinigung.</p>
             </div>
         </div>
     </div>
@@ -1239,16 +1236,16 @@
     <div class="container">
         <div class="two-col">
             <div class="two-col-text">
-                <h2>Was unsere Reinigungsfirma bei der Umzugsreinigung leistet</h2>
-                <p>Unsere professionelle Umzugsreinigung in Zürich umfasst sämtliche Bereiche, die für eine erfolgreiche Wohnungsabgabe erforderlich sind. Jeder Raum wird nach einem standardisierten Verfahren gereinigt – gründlich, zuverlässig und ohne Kompromisse.</p>
+                <h2>Unsere Leistungen bei der Endreinigung in Zürich</h2>
+                <p>Eine komplette Reinigung inkl. aller Räume umfasst sämtliche Bereiche nach Übergabeprotokoll der Zürcher Verwaltungen. Jedes Zimmer wird systematisch und gründlich gereinigt.</p>
                 <ul>
-                    <li><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg> <strong>Küche:</strong> Backofen, Kühlschrank, alle Schränke innen und aussen, Abzugshaube, Arbeitsflächen</li>
-                    <li><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg> <strong>Badezimmer:</strong> Armaturen, Fugen, Sanitäranlagen, Spiegel, WC, Dusche/Badewanne</li>
-                    <li><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg> <strong>Alle Böden:</strong> Staubsaugen, feucht aufnehmen, Laminat, Parkett, Fliesen</li>
-                    <li><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg> <strong>Fenster:</strong> Innen und aussen gereinigt, inkl. Rahmen und Fensterbänke</li>
-                    <li><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg> <strong>Weitere Bereiche:</strong> Heizkörper, Türen, Steckdosen, Sockelleisten, Balkon, Keller, Waschküche</li>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg> <strong>Küche:</strong> Backofen, Glaskeramik, Dampfabzug, Schränke innen und aussen</li>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg> <strong>Badezimmer:</strong> Kalkentfernung, Fugen, Armaturen, WC, Dusche und Badewanne</li>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg> <strong>Zimmer & Böden:</strong> Saugen, wischen, Laminat, Parkett, Fliesen</li>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg> <strong>Fenster und Storen:</strong> Lamellen einzeln gereinigt, Rahmen und Fensterbänke inkl.</li>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg> <strong>Weiteres:</strong> Heizkörper, Türen, Steckdosen, Sockelleisten – auf Wunsch Keller, Estrich, Garage</li>
                 </ul>
-                <p>Alle Reinigungsmittel, professionelle Ausrüstung, Anfahrt und MwSt. sind im Festpreis inbegriffen – alles inkl., ohne Zusatzkosten. Sie müssen nichts besorgen oder vorbereiten. Unser clean Team kommt vollständig ausgestattet und hinterlässt jedes Zimmer in makellosem Zustand. Diese gründliche Reinigung umfasst bei der Umzugsreinigung auch Nebenräume wie Keller, Estrich und Waschküche – so ist die Endreinigung inkl. aller Bereiche abgedeckt.</p>
+                <p>Reinigungsmittel, Anfahrt und MwSt. im Festpreis enthalten. Unsere Arbeit folgt nicht der 20-Minuten-Regel, sondern systematischer Tiefenreinigung – auch bei Verschmutzungen und Staub.</p>
             </div>
             <div class="content-image">
                 <img src="img-checkliste.webp" alt="Reinigungsmittel und Checkliste für Umzugsreinigung" width="800" height="533" loading="lazy" decoding="async">
@@ -1260,17 +1257,16 @@
 <!-- ================================================================
      ABNAHMEGARANTIE SERVICE
      ================================================================ -->
-<section class="section section-dark">
+<section class="section section-dark" id="abnahmegarantie">
     <div class="container">
         <div class="two-col">
             <div class="content-image">
                 <img src="img-garantie.webp" alt="Abnahmegarantie bei professioneller Umzugsreinigung" width="800" height="534" loading="lazy" decoding="async">
             </div>
             <div class="two-col-text">
-                <h2 style="color: var(--white);">Abnahmegarantie – unser Versprechen bei jeder Endreinigung</h2>
-                <p style="color: #CBD5E0;">Was bedeutet unsere Abnahmegarantie konkret? Ganz einfach: Wenn Ihr Vermieter oder die Verwaltung bei der Wohnungsabnahme Mängel an der Reinigung feststellt, kommen unsere Reinigungskräfte kostenlos zurück und beheben diese umgehend.</p>
-                <p style="color: #CBD5E0;">Diese Abnahmegarantie ist bei jeder Umzugsreinigung unserer Reinigungsfirma automatisch enthalten – ohne Aufpreis. So garantieren wir, dass die Wohnung abgenommen wird und Sie Ihre Kaution vollständig zurückerhalten. Über 95% unserer Kunden in Zürich bestehen die Wohnungsübergabe beim ersten Mal – dank unseres clean und professionellen Service.</p>
-                <p style="color: #CBD5E0;">Vertrauen Sie auf unsere langjährige Erfahrung als Reinigungsfirma. Wir kennen die strengen Anforderungen der Verwaltungen und sorgen dafür, dass Ihre Umzugsreinigung höchsten Massstäben entspricht. Ob kleine Wohnung oder grosses Objekt mit vielen Zimmern – jede Reinigung wird nach demselben hohen Standard durchgeführt.</p>
+                <h2 style="color: var(--white);">Abnahmegarantie inkl. – unser Versprechen</h2>
+                <p style="color: #CBD5E0;">Beanstandet die Verwaltung etwas bei der Wohnungsabgabe, kommen wir innerhalb 24 Stunden zurück und reinigen nach – kostenlos, bis das Protokoll unterzeichnet ist.</p>
+                <p style="color: #CBD5E0;">Über 95% unserer Kunden bestehen die Übergabe beim ersten Mal. Diese Sicherheit bieten wenige Reinigungsfirmen Zürich in diesem Umfang – schon gar nicht zu unseren Reinigungsfirma Zürich Preise.</p>
             </div>
         </div>
     </div>
@@ -1283,16 +1279,14 @@
     <div class="container">
         <div class="two-col">
             <div class="two-col-text">
-                <h2>Wohnungsreinigung selber machen? Diese Fehler sollten Sie vermeiden</h2>
-                <p>Viele Mieter versuchen, die Umzugsreinigung selbst durchzuführen – oft mit unangenehmen Folgen bei der Wohnungsübergabe. Ohne professionelle Reinigung werden häufig Bereiche übersehen, die bei der Abnahme beanstandet werden. Die häufigsten Probleme bei der selbst durchgeführten Reinigung:</p>
+                <h2>Häufige Fehler bei der Wohnungsreinigung</h2>
                 <ul>
-                    <li><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="#E53E3E" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg> Kalkablagerungen an Armaturen und Fugen werden übersehen</li>
-                    <li><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="#E53E3E" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg> Backofen und Kühlschrank nicht gründlich genug gereinigt</li>
-                    <li><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="#E53E3E" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg> Fenster streifig oder Rahmen nicht gereinigt</li>
-                    <li><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="#E53E3E" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg> Sockelleisten, Steckdosen und Heizkörper vergessen</li>
-                    <li><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="#E53E3E" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg> Falsche Reinigungsmittel beschädigen Oberflächen</li>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="#E53E3E" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg> Kalkablagerungen übersehen</li>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="#E53E3E" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg> Backofen nicht gründlich</li>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="#E53E3E" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg> Fenster streifig</li>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="#E53E3E" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg> Sockelleisten vergessen</li>
                 </ul>
-                <p>Die Folge: Der Vermieter verweigert die Abnahme und zieht CHF 500 bis CHF 1'500 oder mehr von Ihrer Kaution ab. Mit unserer professionellen Umzugsreinigung inkl. Abnahmegarantie passiert Ihnen das nicht. Unsere Reinigung deckt jedes Zimmer ab – clean und gründlich nach einem standardisierten Verfahren.</p>
+                <p>Folge: Abnahme verweigert, CHF 500–1'500 Kautionsabzug. Mit unserer Abnahmegarantie nicht.</p>
                 <a href="#offerte" class="btn btn-primary" style="margin-top:16px">Kostenlos Offerte anfordern</a>
             </div>
             <div class="content-image">
@@ -1309,10 +1303,9 @@
     <div class="container">
         <div class="two-col">
             <div class="two-col-text">
-                <h2>Hauswartung, Gebäudereinigung &amp; mehr – unser erweiterter Service</h2>
-                <p>Neben der klassischen Umzugsreinigung bieten wir auch Dienstleistungen im Bereich Hauswartung und Gebäudereinigung an. Ob regelmässige Treppenhausreinigung, Reinigung von Gemeinschaftsräumen oder eine einmalige Grundreinigung – unsere Reinigungsfirma ist Ihr Ansprechpartner für sämtliche Reinigungsarbeiten rund um Ihre Liegenschaft.</p>
-                <p>Viele unserer Kunden nutzen unsere Umzugsreinigung als Einstieg und vertrauen uns danach auch die laufende Hauswartung und Gebäudereinigung an. Als lokale Reinigungsfirma bieten wir einen persönlichen Service und kennen die Anforderungen der Verwaltungen. Ob Reinigung einzelner Zimmer, clean gehaltene Treppenhäuser oder die komplette Gebäudereinigung – wir übernehmen das für Sie.</p>
-                <p>Unsere Hauswartung umfasst neben der Reinigung auch kleinere Unterhaltsarbeiten. So erhalten Sie Reinigung und Hauswartung aus einer Hand – effizient, zuverlässig und zu fairen Konditionen inkl. aller Materialien.</p>
+                <h2>Unsere Reinigungsdienstleistungen im Kanton Zürich</h2>
+                <p>Wir sind in Zürich und im Kanton aktiv. Endreinigung Zürich Stadt und Umzugsreinigung Winterthur über dieselbe Hotline. Umzugsreinigung mit abnahmegarantie zürich – auch als Umzugsreinigung mit abgabegarantie zürich bekannt.</p>
+                <p>Wer „Umzugsreinigung Zürich günstig", „Umzugsreinigung rent a friend Zürich" oder „Umzugsreinigung rent-a-friend Zürich" sucht: Privatangebote ohne Garantie. Bei uns: Festpreis für Ihre neuen vier Wänden.</p>
             </div>
             <div class="content-image">
                 <img src="img-hauswartung.webp" alt="Hauswartung und Gebäudereinigung in Zürich" width="800" height="533" loading="lazy" decoding="async">
@@ -1326,79 +1319,61 @@
      ================================================================ -->
 <section class="section" id="faq">
     <div class="container">
-        <h2 class="section-title text-center">Häufige Fragen zur Umzugsreinigung</h2>
-        <p class="section-subtitle text-center mx-auto">Alles, was Sie über unseren professionellen Reinigungsservice wissen müssen.</p>
+        <h2 class="section-title text-center">Häufige Fragen zur Wohnungsreinigung in Zürich</h2>
+        <p class="section-subtitle text-center mx-auto">Die wichtigsten Fragen zur Umzugsreinigung, Wohnungsabgabe und Schweizer Mietrecht – auf den Punkt beantwortet.</p>
         <div class="faq-list">
             <div class="faq-item">
                 <button class="faq-question" onclick="toggleFaq(this)">
-                    Was ist der Unterschied zwischen Umzugsreinigung und Endreinigung?
+                    Wie viel kostet eine Umzugsreinigung?
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
                 </button>
                 <div class="faq-answer"><div class="faq-answer-inner">
-                    Es gibt keinen Unterschied. Umzugsreinigung, Endreinigung und Wohnungsreinigung sind verschiedene Begriffe für dieselbe Dienstleistung: die gründliche Reinigung einer Wohnung nach dem Auszug. Unsere Reinigungsfirma bietet diesen Service inkl. Abnahmegarantie an. Egal wie viele Zimmer Ihre Wohnung hat – die Umzugsreinigung umfasst immer alle Räume, damit Ihre Wohnungsübergabe reibungslos verläuft.
+                    Festpreise inkl. Abnahmegarantie: 1-Zimmer ab CHF 539, 2-Zimmer CHF 689, 3-Zimmer CHF 839, 4-Zimmer CHF 989. Aufpreis bei starker Verschmutzung oder Nebenräumen.
                 </div></div>
             </div>
             <div class="faq-item">
                 <button class="faq-question" onclick="toggleFaq(this)">
-                    Ist eine professionelle Umzugsreinigung in Zürich Pflicht?
+                    Was darf eine Endreinigung kosten?
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
                 </button>
                 <div class="faq-answer"><div class="faq-answer-inner">
-                    Ja, in der Schweiz sind Sie verpflichtet, die Wohnung gründlich gereinigt und in ordnungsgemässem Zustand zurückzugeben. Dies ist im Mietvertrag festgehalten und gesetzlich vorgeschrieben. Eine professionelle Umzugsreinigung stellt sicher, dass alle Anforderungen erfüllt werden. Dabei muss die Reinigung jedes Zimmer umfassen – von der Küche bis zum Keller. Fordern Sie ein unverbindliches Angebot für Ihre Umzugsreinigung an.
+                    CHF 5–10/m² inkl. Abnahmegarantie. Vermieter dürfen Sie nicht zu überteuerten Anbietern verpflichten – Sie wählen die Reinigungsfirma selbst.
                 </div></div>
             </div>
             <div class="faq-item">
                 <button class="faq-question" onclick="toggleFaq(this)">
-                    Was passiert, wenn ich die Wohnung nicht clean übergebe?
+                    Wie sauber muss die Wohnung bei der Übergabe in der Schweiz sein?
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
                 </button>
                 <div class="faq-answer"><div class="faq-answer-inner">
-                    Der Vermieter wird die Reinigungskosten von Ihrer Mietkaution abziehen – in Zürich meist CHF 500 bis CHF 1'500 oder mehr. Folglich erhalten Sie Ihre Kaution nicht oder nur teilweise zurück. Mit unserer professionellen Umzugsreinigung inkl. Abnahmegarantie schützen Sie sich vor diesen unnötigen Kosten.
+                    In der Schweiz gilt „einzugsbereiter Zustand" (Art. 267 OR). Fenster innen/aussen, Storen samt Lamellen, Backofen, kalkfreie Armaturen, Bodenleisten, Heizkörper. Auch Keller und Estrich müssen gereinigt sein.
                 </div></div>
             </div>
             <div class="faq-item">
                 <button class="faq-question" onclick="toggleFaq(this)">
-                    Was ist in der Abnahmegarantie inbegriffen?
+                    Ist man verpflichtet, beim Auszug die Fenster zu putzen?
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
                 </button>
                 <div class="faq-answer"><div class="faq-answer-inner">
-                    Unsere Abnahmegarantie bedeutet: Wenn Ihr Vermieter bei der Wohnungsabnahme Mängel an unserer Reinigung feststellt, beheben wir diese kostenlos. Wir kommen so oft zurück, bis die Wohnung abgenommen wird. Zusätzlich sind alle Reinigungsmittel, professionelle Ausrüstung, Anfahrt und MwSt. im Festpreis enthalten.
+                    Ja. Scheiben innen und aussen, Rahmen, Fensterbänke und Storen. Wer das vergisst, riskiert Nachreinigungskosten CHF 150–300 oder Kautionskürzung.
                 </div></div>
             </div>
             <div class="faq-item">
                 <button class="faq-question" onclick="toggleFaq(this)">
-                    Wie lange dauert eine Umzugsreinigung?
+                    Bieten Sie auch Umzüge oder Zügelfirma-Dienste an?
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
                 </button>
                 <div class="faq-answer"><div class="faq-answer-inner">
-                    Die Dauer der Umzugsreinigung hängt von der Grösse der Wohnung ab: 1-2 Zimmer benötigen ca. 4-6 Stunden Reinigung, 3-4 Zimmer ca. 6-8 Stunden und grössere Objekte entsprechend mehr. Da Sie einen Festpreis bezahlen, spielt die Dauer für Sie keine Rolle – unsere Reinigungskräfte arbeiten, bis jedes Zimmer clean und perfekt ist. Die Reinigung ist erst abgeschlossen, wenn alle Bereiche unserer Checkliste erfüllt sind.
+                    Nein, wir machen ausschliesslich Umzugsreinigung und Endreinigung. Für den Umzug selbst brauchen Sie eine separate Zügelfirma oder Umzugsfirma.
                 </div></div>
             </div>
             <div class="faq-item">
                 <button class="faq-question" onclick="toggleFaq(this)">
-                    Was kostet eine Umzugsreinigung bei starker Verschmutzung?
+                    Wie lange dauert die Endreinigung einer Wohnung?
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
                 </button>
                 <div class="faq-answer"><div class="faq-answer-inner">
-                    Bei starker Verschmutzung wie Schimmel oder extremem Dreck erstellt unsere Reinigungsfirma ein individuelles Angebot für die Umzugsreinigung. Teilen Sie uns den Zustand bei der Anfrage mit, damit wir den Aufwand der Reinigung korrekt kalkulieren können. Der Preis für die Umzugsreinigung hängt dabei von der Anzahl Zimmer und dem Verschmutzungsgrad ab. Jedes Angebot ist inkl. aller Reinigungsmittel und unserem clean Service.
-                </div></div>
-            </div>
-            <div class="faq-item">
-                <button class="faq-question" onclick="toggleFaq(this)">
-                    Warum sollte ich eine professionelle Reinigungsfirma beauftragen?
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
-                </button>
-                <div class="faq-answer"><div class="faq-answer-inner">
-                    Eine professionelle Reinigungsfirma bietet faire Fixpreise ohne versteckte Kosten und 100% Abnahmegarantie mit kostenloser Nachbesserung. Unsere Umzugsreinigung ist spezialisiert auf Endreinigungen – keine allgemeine Haushaltsreinigung. Dazu langjährige Erfahrung mit Vermietern und Verwaltungen, kurzfristige Verfügbarkeit und ein professionelles Team, das clean und effizient arbeitet. Die Reinigung ist komplett inkl. aller Materialien.
-                </div></div>
-            </div>
-            <div class="faq-item">
-                <button class="faq-question" onclick="toggleFaq(this)">
-                    In welchen Gebieten in Zürich bieten Sie Ihren Service an?
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
-                </button>
-                <div class="faq-answer"><div class="faq-answer-inner">
-                    Wir bieten unsere Umzugsreinigung im gesamten Kanton an. Unser Service deckt alle Stadtteile ab: City, Oerlikon, Altstetten, Wiedikon, Seefeld, Enge, Wipkingen, Höngg, Schwamendingen, Affoltern und alle umliegenden Gemeinden. Neben der Umzugsreinigung bieten wir auch Hauswartung und Gebäudereinigung an. Für Anfragen kontaktieren Sie uns für eine individuelle Abklärung und ein massgeschneidertes Angebot.
+                    1-Zimmer 3–5 Std, 2-Zimmer 5–7 Std, 3.5-Zimmer 7–10 Std, 4-Zimmer 8–12 Std mit zwei Reinigungskräften. Storen und Backofen am zeitintensivsten.
                 </div></div>
             </div>
         </div>
@@ -1427,20 +1402,75 @@
 <!-- ================================================================
      FOOTER
      ================================================================ -->
+<!-- ================================================================
+     MAP EMBED (Google Business Profile)
+     ================================================================ -->
+<section class="map-section" aria-label="Standort Umzugsreinigungen Zürich auf Google Maps">
+    <div class="container">
+        <div class="map-head">
+            <h2>Umzugsreinigungen Zürich auf Google Maps</h2>
+        </div>
+        <div class="map-wrap">
+            <!-- Offizieller GBP-Embed: Place-ID 0xd3fd57f4bcd94874 (Umzugsreinigungen Zürich) -->
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d86523.50282678081!2d8.52763096543471!3d47.336615890558356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47900b946a9d0fd3%3A0xd3fd57f4bcd94874!2sUmzugsreinigungen%20Z%C3%BCrich!5e0!3m2!1sde!2sch!4v1778927933004!5m2!1sde!2sch"
+                width="100%" height="420" style="border:0; display:block;"
+                loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                title="Standort Umzugsreinigungen Zürich – Google Business Profile"
+                allowfullscreen></iframe>
+        </div>
+        <p class="map-cta">
+            <a href="https://www.google.com/maps/search/?api=1&query=Umzugsreinigungen+Z%C3%BCrich" target="_blank" rel="noopener" class="btn btn-primary">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" style="width:18px;height:18px;display:inline-block;vertical-align:-3px;margin-right:6px;"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                Auf Google Maps öffnen & Bewertung schreiben
+            </a>
+        </p>
+    </div>
+</section>
+
+<!-- ================================================================
+     FOOTER
+     ================================================================ -->
 <footer class="footer">
     <div class="container">
         <div class="footer-grid">
             <div>
-                <h3>Umzugsreinigung Zürich</h3>
-                <p>Professionelle Endreinigung in Zürich mit Abnahmegarantie. Ihre zuverlässige Reinigungsfirma in Zürich – seit Jahren im Service für zufriedene Kunden.</p>
+                <h3>Umzugsreinigungen Zürich</h3>
+                <p>Professionelle Wohnungsreinigung in Zürich mit Abnahmegarantie. Ihre zuverlässige Reinigungsfirma in Zürich – seit Jahren im Service für zufriedene Kunden.</p>
+                <div class="footer-socials" aria-label="Soziale Profile">
+                    <a href="https://www.google.com/maps/place/Umzugsreinigungen+Z%C3%BCrich/" target="_blank" rel="noopener" aria-label="Google Business Profile" title="Google Business Profile">
+                        <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22"><path d="M12 2C7.58 2 4 5.58 4 10c0 5.25 8 12 8 12s8-6.75 8-12c0-4.42-3.58-8-8-8zm0 11a3 3 0 110-6 3 3 0 010 6z"/></svg>
+                    </a>
+                    <a href="https://facebook.com/umzugsreinigungenzuerich" target="_blank" rel="noopener" aria-label="Facebook" title="Facebook">
+                        <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22"><path d="M13.397 20.997v-8.196h2.765l.411-3.209h-3.176V7.548c0-.926.258-1.56 1.587-1.56h1.684V3.127A22.336 22.336 0 0014.201 3c-2.444 0-4.122 1.492-4.122 4.231v2.355H7.332v3.209h2.753v8.202h3.312z"/></svg>
+                    </a>
+                    <a href="https://instagram.com/umzugsreinigungenzuerich" target="_blank" rel="noopener" aria-label="Instagram" title="Instagram">
+                        <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 1.366.062 2.633.336 3.608 1.311.975.975 1.249 2.242 1.311 3.608.058 1.266.07 1.646.07 4.85s-.012 3.584-.07 4.85c-.062 1.366-.336 2.633-1.311 3.608-.975.975-2.242 1.249-3.608 1.311-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-1.366-.062-2.633-.336-3.608-1.311-.975-.975-1.249-2.242-1.311-3.608-.058-1.266-.07-1.646-.07-4.85s.012-3.584.07-4.85c.062-1.366.336-2.633 1.311-3.608.975-.975 2.242-1.249 3.608-1.311 1.266-.058 1.646-.07 4.85-.07zm0 5.838a4 4 0 100 8 4 4 0 000-8zm0 6.594a2.594 2.594 0 110-5.188 2.594 2.594 0 010 5.188zm5.105-6.752a.932.932 0 11-1.864 0 .932.932 0 011.864 0z"/></svg>
+                    </a>
+                    <a href="https://linkedin.com/company/umzugsreinigungenzuerich" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn">
+                        <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.063 2.063 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                    </a>
+                    <a href="https://www.tiktok.com/@umzugsreinigungenzuerich" target="_blank" rel="noopener" aria-label="TikTok" title="TikTok">
+                        <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-5.2 1.74 2.89 2.89 0 012.31-4.64 2.93 2.93 0 01.88.13V9.4a6.84 6.84 0 00-1-.05A6.33 6.33 0 005.8 20.1a6.34 6.34 0 0010.86-4.43V8.5a8.16 8.16 0 004.77 1.52v-3.4a4.85 4.85 0 01-1.84-.36z"/></svg>
+                    </a>
+                    <a href="https://youtube.com/@umzugsreinigungenzuerich" target="_blank" rel="noopener" aria-label="YouTube" title="YouTube">
+                        <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22"><path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                    </a>
+                    <a href="https://x.com/umzugsreinigungenzuerich" target="_blank" rel="noopener" aria-label="X (Twitter)" title="X (Twitter)">
+                        <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231 5.45-6.231zm-1.161 17.52h1.833L7.084 4.126H5.117l11.966 15.644z"/></svg>
+                    </a>
+                    <a href="https://pinterest.com/umzugsreinigungenzuerich" target="_blank" rel="noopener" aria-label="Pinterest" title="Pinterest">
+                        <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22"><path d="M12 0C5.373 0 0 5.372 0 12c0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738a.36.36 0 01.083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.889-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.359-.631-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0z"/></svg>
+                    </a>
+                </div>
             </div>
             <div>
-                <h3>Service</h3>
+                <h3>Navigation</h3>
                 <ul class="footer-links">
+                    <li><a href="#umzugsreinigung">Umzugsreinigung Zürich</a></li>
+                    <li><a href="#abnahmegarantie">Abnahmegarantie</a></li>
                     <li><a href="#offerte">Offerte</a></li>
-                    <li><a href="#preise">Preise</a></li>
-                    <li><a href="#ablauf">Ablauf</a></li>
-                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#preise">Preise in Zürich</a></li>
                 </ul>
             </div>
             <div>
@@ -1450,12 +1480,12 @@
                 <p style="margin-bottom: 12px;">8001 Zürich</p>
                 <ul class="footer-links">
                     <li><a href="tel:+41444990075">+41 44 499 00 75</a></li>
-                    <li><a href="mailto:kontakt@umzugsreinigungenzuerich.ch">kontakt@umzugsreinigungenzuerich.ch</a></li>
+                    <li><a href="/cdn-cgi/l/email-protection#85eeeaebf1e4eef1c5f0e8fff0e2f6f7e0ecebece2f0ebe2e0ebfff0e0f7ece6edabe6ed"><span class="__cf_email__" data-cfemail="600b0f0e14010b1420150d1a1507131205090e0907150e07050e1a1505120903084e0308">[email&#160;protected]</span></a></li>
                 </ul>
             </div>
         </div>
         <div class="footer-bottom">
-            &copy; 2026 Umzugsreinigung Zürich – Alle Rechte vorbehalten
+            &copy; 2026 Umzugsreinigungen Zürich – Alle Rechte vorbehalten
         </div>
     </div>
 </footer>
@@ -1470,7 +1500,7 @@
 <!-- ================================================================
      JAVASCRIPT
      ================================================================ -->
-<script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
     // Header Scroll Effect
     window.addEventListener('scroll', function() {
         document.getElementById('header').classList.toggle('scrolled', window.scrollY > 50);
